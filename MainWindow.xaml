@@ -20,7 +20,7 @@
         <TextBox x:Name="textBoxEstado" HorizontalAlignment="Left" Margin="632,306,0,0" TextWrapping="Wrap" Text="Pernambuco" VerticalAlignment="Top" Width="274" Height="37" FontFamily="Trebuchet MS" FontSize="18" BorderThickness="0,0,0,3" BorderBrush="Black" />
         <Label Content="Bairro:" HorizontalAlignment="Left" Margin="538,387,0,0" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold"/>
         <TextBox x:Name="textBoxBairro" HorizontalAlignment="Left" Margin="632,390,0,0" TextWrapping="Wrap" Text="Boa vista" VerticalAlignment="Top" Width="274" Height="37" FontFamily="Trebuchet MS" FontSize="18" BorderThickness="0,0,0,3" BorderBrush="Black" />
-        <Button Content="Limpar" HorizontalAlignment="Left" Margin="688,501,0,0" VerticalAlignment="Top" Height="56" Width="124" Background="White" BorderBrush="Black" FontSize="24" FontFamily="Trebuchet MS" FontWeight="Bold" BorderThickness="2,2,2,2"/>
+        <Button x:Name="botaoLimpar" Content="Limpar" HorizontalAlignment="Left" Margin="688,501,0,0" VerticalAlignment="Top" Height="56" Width="124" Background="White" BorderBrush="Black" FontSize="24" FontFamily="Trebuchet MS" FontWeight="Bold" BorderThickness="2,2,2,2" Click="botaoLimpar_Click"/>
         <Button Content="Buscar" HorizontalAlignment="Left" Margin="171,501,0,0" VerticalAlignment="Top" Height="56" Width="124" Background="White" BorderBrush="Black" FontSize="24" FontFamily="Trebuchet MS" FontWeight="Bold" BorderThickness="2,2,2,2" Click="Button_Click"/>
 
     </Grid>

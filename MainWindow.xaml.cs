@@ -60,7 +60,7 @@ namespace ApiCep
                     }
                     else
                     {
-                        Console.WriteLine($"Erro na requisição: {response.StatusCode} - {response.ReasonPhrase}");
+                       MessageBox.Show($"O cep:{cepinho} é inválido!");
                     }
                 }
                 catch (Exception ex)
@@ -72,6 +72,14 @@ namespace ApiCep
 
         }
 
+        private void botaoLimpar_Click(object sender, RoutedEventArgs e)
+        {
+            textBoxBairro.Text = (" ");
+            textBoxCep.Text = (" ");
+            textBoxCidade.Text =(" ");
+            textBoxEstado.Text =(" ");
+            textBoxRua.Text =(" ");
+        }
     }
     }
 
